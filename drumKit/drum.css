@@ -12,10 +12,10 @@ html {
   
   .keys {
     display: flex;
-    flex: 1;
+    flex: 1; /*specifying the growth and shrinkage of elements*/
     min-height: 100vh;
     align-items: center;
-    justify-content: center;
+    justify-content: center; /* aligning flex items along the main axis of the current flex container*/
   }
   
   .key {
@@ -26,10 +26,10 @@ html {
     padding: 1rem .5rem;
     transition: all .07s ease;
     width: 10rem;
-    text-align: center;
+    text-align: center; /* describes how inline contents of a block are arranged in case they do not fit.*/
     color: white;
     background: rgba(0,0,0,0.4);
-    text-shadow: 0 0 .5rem black;
+    text-shadow: 0 0 .5rem black; /*allow shadow effects on text*/
   }
   
   .playing {
